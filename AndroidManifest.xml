@@ -3,7 +3,7 @@
           package="idv.funnybrain.bluechat"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="19"/>
+    <uses-sdk android:maxSdkVersion="19" android:minSdkVersion="10"/>
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
